@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+
+#urlinput {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    width: 500px;
+}
+
+#submit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#shorturl{
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    width: auto;
+    overflow: hidden;
+    padding: 10px;
+}
+
